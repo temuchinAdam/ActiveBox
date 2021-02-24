@@ -31,7 +31,16 @@ p{
 }
 
 /* Header */
+.header.fixed{
+    position: fixed;
+    background-color: #31344e;
+    height: auto;
 
+}
+.header.fixed .header__inner{
+    padding: 15px 0;
+    border-bottom: 0;
+}
 .header{
     position: absolute;
     top: 0;
@@ -553,8 +562,10 @@ background-color: #3a3e64;
     }   
 /* btn */
 .btn--long{
-    min-width: 260px;
+    min-width: 240px;
+    
     }
+
 /* download */
 .download{
     margin: 50px;
@@ -582,4 +593,8 @@ background-color: #3a3e64;
     .reviews__img{
         right: -100px;
     }
+.btn--long{
+        min-width: 50%;
+        
+    }   
 }
